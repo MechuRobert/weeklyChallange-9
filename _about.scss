@@ -1,0 +1,32 @@
+.about {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 40vh;
+    }
+
+    .title_line {
+        margin: 2% 0 3% 0;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .about {
+        width: 95%;
+
+        &__content {
+            width: 100%;
+        }
+    }
+
+
+}
